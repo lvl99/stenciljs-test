@@ -1,0 +1,25 @@
+{
+  "name": "ddc",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Stencil App Starter",
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+    "@json-editor/json-editor": "^1.3.2",
+    "@stencil/core": "~0.16.2",
+    "@stencil/router": "~0.3.1",
+    "crypto": "^1.0.1",
+    "i18next": "^13.1.5",
+    "i18next-xhr-backend": "^1.5.1",
+    "lodash": "^4.17.11",
+    "memoize-one": "^5.0.0",
+    "signature_pad": "^3.0.0-beta.3",
+    "uuid": "^3.3.2"
+  },
+  "license": "MIT"
+}
